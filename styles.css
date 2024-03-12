@@ -39,7 +39,10 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-
+input, button, section {
+    font-family: inherit;
+    
+}
 body {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -2233,6 +2236,7 @@ input[type='range']::-webkit-slider-thumb {
         border: 1px solid var(--border-color) ;
         border-top: 0;
         border-bottom: 0;
+        z-index: 10;
     }
     .dpt-menu > ul > li > a {
         font-weight: var(--fw5);
